@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'underscore-rails'
+gem 'instagram'
 gem 'haml-rails'
 gem 'geocoder'
 gem 'gmaps4rails'
