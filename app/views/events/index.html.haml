@@ -3,7 +3,7 @@
 %table
   %thead
     %tr
-      %th Brand
+      %th timespan
       %th Latitude
       %th Longitude
       %th Address
@@ -13,11 +13,11 @@
       %th
       %th
       %th
-      
+
   %tbody
     - @events.each do |event|
       %tr
-        %td= event.brand_id
+        %td= event.timespan
         %td= event.latitude
         %td= event.longitude
         %td= event.address
