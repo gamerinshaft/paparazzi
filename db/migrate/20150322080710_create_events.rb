@@ -8,7 +8,7 @@ class CreateEvents < ActiveRecord::Migration
       t.text :description
       t.string :title
       t.datetime :datetime
-
+      t.integer :timespan
       t.timestamps
     end
   end

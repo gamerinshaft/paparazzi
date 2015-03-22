@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20150322080710) do
     t.text     "description"
     t.string   "title"
     t.datetime "datetime"
+    t.integer  "timespan"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
